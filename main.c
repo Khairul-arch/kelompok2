@@ -14,19 +14,12 @@ int main(){
         for (int i = 1; i <= Pinjam; i++){
             printf("Buku ke-%d : ", i);
             scanf(" %s", &Buku[i]);
-         }
-    
-    } else if (Input == 2){
-         for (int j = 1; j <= Pinjam; j++){
-            printf("\nBuku ke-%d : %s", j, Buku[j]);
-         }
-    } else {
-        while (Input != 1 && Input != 2){
-            printf("Input salah! Coba lagi : ");
-            scanf("%d ", &Input);
         }
-        
-    }
+        printf("\nJadi Buku Yang Kamu Pinjam adalah : \n");
+        for (int j = 1; j <= Pinjam; j++){
+            printf("\nBuku ke-%d : %s", j, Buku[j]);            
+        }
+        }
    
 
 }
