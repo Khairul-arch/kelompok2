@@ -20,6 +20,7 @@ int main(){
             printf("\nBuku ke-%d : %s", j, Buku[j]);            
         }
         }
+        printf("\nTerimakasih Sudah Memenjiam");
    
 
 }
