@@ -21,6 +21,6 @@ int main(){
         }
         }
         printf("\nTerimakasih Sudah Memenjiam");
-   
+        printf("Masukan nama kamu disini : ");
 
 }
