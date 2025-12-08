@@ -87,5 +87,8 @@ int main() {
     }
 
     printf("Terimakasih sudah mengisi");
+    printf("Good");
+
+
     return 0;
 }
