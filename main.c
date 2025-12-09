@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 // Daftar buku yang tersedia
     char bukuTersedia[][10] = {"BK001", "BK002", "BK003", "BK004"};
     int jumlah = 4;
@@ -40,7 +41,7 @@ int main() {
     int opsi, SubOpsi1, SubOpsi2, SubOpsi3;
 
     // Tampilkan menu pertama kali
-
+    Pilihan();
     scanf("%d", &opsi);
 
     while (opsi != 7) {
@@ -101,7 +102,7 @@ int main() {
         }
 
         // tampilkan menu lagi
-        
+        Pilihan();
         scanf("%d", &opsi);
     }
 
