@@ -24,11 +24,7 @@ void statusBuku() {
     else
         printf("Status buku: dipinjam\n");
 }
-
-int main() {
-    int opsi, SubOpsi1, SubOpsi2, SubOpsi3;
-
-    // Tampilkan menu pertama kali
+void Pilihan(){
     printf("Apa yang ingin anda lakukan ?\n"
            "1. Pengelolaan Buku\n"
            "2. Peminjaman Buku\n"
@@ -38,6 +34,13 @@ int main() {
            "6. Searching\n"
            "7. Selesai\n" 
            "Pilihan Anda: ");
+}
+
+int main() {
+    int opsi, SubOpsi1, SubOpsi2, SubOpsi3;
+
+    // Tampilkan menu pertama kali
+
     scanf("%d", &opsi);
 
     while (opsi != 7) {
@@ -98,15 +101,7 @@ int main() {
         }
 
         // tampilkan menu lagi
-        printf("\n\nApa yang ingin anda lakukan ?\n"
-               "1. Pengelolaan Buku\n"
-               "2. Peminjaman Buku\n"
-               "3. Pengembalian Buku\n"
-               "4. Status Buku\n"
-               "5. Pengunjung\n"
-               "6. Searching\n"
-               "7. Selesai\n"
-               "Pilihan Anda: ");
+        
         scanf("%d", &opsi);
     }
 
