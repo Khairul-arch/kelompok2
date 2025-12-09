@@ -109,7 +109,7 @@ int main() {
     printf("Terimakasih sudah mengisi");
     printf("Good");
     printf("halo");
-    printf("hola");
+    printf("hola hola");
 
 
     return 0;
