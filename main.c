@@ -111,6 +111,7 @@ int main() {
     printf("halo");
     printf("hola");
     printf("helo");
+    printf("khairul");
 
 
     return 0;
